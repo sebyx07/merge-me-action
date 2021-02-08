@@ -11,7 +11,7 @@ inputs:
   GITHUB_LOGIN:
     description: 'The GitHub login for which automatic merges are enabled.'
     required: false
-    default: 'dependabot-preview[bot]'
+    default: 'dependabot[bot]'
   MERGE_METHOD:
     description:
       'Represents available types of methods to use when merging a pull request.
